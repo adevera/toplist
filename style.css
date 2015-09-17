@@ -1,17 +1,33 @@
 .app {
 	display: flex;
 }
+
+h1 {
+	background-color: #33BEBE;
+	color: white;
+	font-family: Helvetica;
+	text-align: left;
+	padding: 20px;
+	margin: 0;
+}	
+.title {
+	font-family: verdana;
+	font-size: 50px;
+	margin-bottom: 50px;
+}
 .description {
-	color: red;
+	font-family: verdana; 
+	color: #7C8B88;
 	max-width: 705px;
+	margin-left: 30px;
 }
 .screenshot {
 	max-width: 460px;
 }
-* {
+#* {
    outline: 1px solid red !important;
 }
-* {
+#* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
